@@ -1,0 +1,51 @@
+.border-dotted {border-style: dotted;}
+.border-dashed {border-style: dashed;}
+.border-solid {border-style: solid;}
+.border-double {border-style: double;}
+.border-groove {
+    border: 6px groove rebeccapurple;
+    display: block;
+    padding: 10px;
+    margin: 25px;
+    width: 100px;
+    height: 200px;
+}
+.border-ridge {border-style: ridge;}
+.border-inset {border-style: inset;}
+.border-outset {border-style: outset;}
+.border-none {border-style: none;}
+.border-hidden {border-style: hidden;}
+.border-mix {border-style: dotted dashed solid double;}
+
+.container{
+    display: block;
+    /* display: inline;
+    display: inline-block; */
+}
+
+.btn{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(15, 96, 166);
+    color: aliceblue;
+    text-align: center;
+    line-height: 40px;
+    margin: 5px;
+}
+
+div a {
+    display: inline-block;
+    border-style: outset;
+    border-width: 2px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(15, 96, 166);
+    color: aliceblue;
+    line-height: 40px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px;
+    box-sizing: border-box;
+}

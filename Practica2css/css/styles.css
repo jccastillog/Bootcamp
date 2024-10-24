@@ -1,0 +1,101 @@
+html{
+box-sizing: border-box;
+
+}
+
+.agdasima-regular {
+  font-family: "Agdasima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.agdasima-bold {
+  font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+  font-family: "Agdasima", sans-serif;
+}
+
+.mt-2{
+  margin-top: 2rem;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 600px;
+}
+
+.logo{
+  display: block;
+  text-decoration: none;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  padding: 0.5em;
+  background-color: #264653;
+}
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5em;
+  margin: 0 0.1em;
+  border-radius: 0.5em;
+}
+
+.btn-primary{
+  color: white;
+  background-color: #0D92F4;
+}
+
+.btn-secondary{
+  color: white;
+  background-color: #77CDFF;
+}
+
+.btn-danger{
+  color: white;
+  background-color: #F95454;
+}
+
+.btn-info{
+  color: white;
+  background-color: #C62E2E;
+}
+
+.card{
+  width:300px;
+  background-color: #77CDFF;
+  color: white;
+  overflow: hidden;
+  border-radius: 0.5em;
+}
+
+.card-img{
+  width: 100%;
+}
+
+.card-body{
+  padding: 1em;
+}
+
+.card-body h5{
+  font-size: 1.5rem;
+  margin: 1em 0;
+  font-weight: 700;
+}
+
+.card_body p{
+  font-weight: 300;
+}
+
+.btn-success{
+  background-color:#EB8317 ;
+  color: black;
+}

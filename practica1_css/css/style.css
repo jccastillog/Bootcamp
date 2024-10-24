@@ -1,0 +1,50 @@
+/*https://colorhunt.co/palette/e7ccccede8dca5b68dc1cfa1*/
+
+/*
+primary: #E7CCCC rgb(231, 204, 204)
+secondary: #EDE8DC rgb(237, 232, 220)
+ligth: #A5B68D rgb(165, 182, 141)
+ligth1: #C1CFA1 rgb(193, 207, 161)
+*/
+
+.bg-primary{
+    background-color: #E7CCCC  ;
+}
+
+.bg-secondary{
+    background-color: #EDE8DC  ;
+}
+
+.bg-light{
+    background-color: #A5B68D  ;
+}
+
+.bg-info{
+    background-color:#C1CFA1
+}
+
+.text-primary{
+    color:#536493
+}
+
+.text-secondary{
+    color: #88C273  ;
+}
+
+.text-ligth{
+    color: #D4BDAC  ;
+}
+
+.text-info{
+    color: #C1CFA1  ;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.w-200{
+    width: 200px;
+}
+
+

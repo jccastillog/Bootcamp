@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center; /* maneja alineación entre los elementos */
+    align-items: flex-end;  /* maneja alineación horizontal */
+    /* align-content: center ; */ /* maneja alineación vertical */
+}
+
+.border{
+    border: 2px solid #000;
+}
+
+.item{
+    background-color: #FD8B51;
+    text-align: center;
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.h700{
+    height: 700px;
+}
+
+.h200{
+    height: 200px;
+}
+
+.orden-1{
+    order: 1;
+}
+
+.orden-2{
+    order: 2;
+}
+
+.orden-2{
+    order: 3;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+
+.flex-grow-2{
+    flex-grow: 2;
+}
+
+.flex-grow-3{
+    flex-grow: 3;
+}
+
+.flex-shrink{
+    flex-shrink: 0;
+    width: 400px;
+}
+
+.flex-basis-1{
+    flex-basis: 50%;
+}
+
+.flex-1{
+    /* Flex-grow - Flex-shrink - Falx-basis */
+    flex: 1 1 300px;
+}
+
+.align-self{
+    align-self: flex-start;
+}

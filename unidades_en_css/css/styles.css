@@ -1,0 +1,33 @@
+.milimetros{
+    font-size: 10mm;
+}
+
+.centimetros{
+    font-size: 2cm;
+}
+
+.pulgadas{
+    font-size: 1in;
+}
+
+.puntos{
+    font-size: 35pt; /* 1punto es 1/72 pulgadas*/
+}
+
+.picas{
+    font-size: 3pc; /* 1pica son 12puntos*/
+    border-width: 2pc;
+    border-style: solid;
+}
+
+.pixeles{
+    font-size: 32px; 
+}
+
+div p{
+    font-size: 4rem; /* La medida rem toma como base 16px o la medida que tenga la etiqueta html */
+}
+
+.container p{
+    font-size: 2em; /* La medida rem toma como base 16px o la medida que tenga la etiqueta que contiene el elemento */
+}
