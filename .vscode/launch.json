@@ -5,6 +5,97 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "abstraccion.principal.Main",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "misproductos.Main",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "polimorfismo.principal.Main",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "Principal",
+            "request": "launch",
+            "mainClass": "encapsulamiento.principal.Principal",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "Principal",
+            "request": "launch",
+            "mainClass": "ejercicio1.principal.Principal",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "encapsulamiento.principal.Main",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "herencia.principal.Main",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Ejercicio_Java.encapsulamiento.principal.Main",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "Persona",
+            "request": "launch",
+            "mainClass": "Ejercicio_Java.Persona",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "Principal",
+            "request": "launch",
+            "mainClass": "Ejercicio_Java.Principal",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "Principal",
+            "request": "launch",
+            "mainClass": "Java.Principal",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "sumaRecursiva",
+            "request": "launch",
+            "mainClass": "sumaRecursiva",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "sumaRecursiva",
+            "request": "launch",
+            "mainClass": "Java.sumaRecursiva",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
             "name": "Launch built-in server and debug",
             "type": "php",
             "request": "launch",

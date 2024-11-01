@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "Ejercicio_Java"
+    ],
+    "java.project.referencedLibraries": [
+        "Ejercicio_Java\\misproductos\\lib\\mysql-connector-j-9.1.0.jar"
+    ]
+}
