@@ -1,0 +1,302 @@
+{
+	"info": {
+		"_postman_id": "e53eb2ce-8e23-40b9-bcdd-dfe808bd6254",
+		"name": "crud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12310789"
+	},
+	"item": [
+		{
+			"name": "areas-criticas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/areas-criticas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"areas-criticas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "areas-criticas_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/areas-criticas/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"areas-criticas",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "areas-criticas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Area critica 2\",\r\n    \"descripcion\": \"Descripción Area critica 2\",\r\n    \"latitud\": 10.123,\r\n    \"longitud\": -75.123,\r\n    \"indiceDeforestacion\": 3.2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/areas-criticas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"areas-criticas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "areas-criticas_id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Area critica 1\",\r\n    \"descripcion\": \"Descripción Area critica 1 actualizada\",\r\n    \"latitud\": 10.123,\r\n    \"longitud\": -75.123,\r\n    \"indiceDeforestacion\": 3.2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/areas-criticas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"areas-criticas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "areas-criticas_id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/areas-criticas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"areas-criticas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "evaluaciones-ferroviarias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/evaluaciones-ferroviarias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"evaluaciones-ferroviarias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "evaluaciones-ferroviarias_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/evaluaciones-ferroviarias/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"evaluaciones-ferroviarias",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "evaluaciones-ferroviarias",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombreRuta\": \"Evaluacion-ferroviaria 1\",\r\n    \"informeViabilidad\": \"Informe Evaluacion-ferroviaria 1\",\r\n    \"fechaEvaluacion\": \"2024-11-04T20:00:00\",\r\n    \"areaCriticaEntityId\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/evaluaciones-ferroviarias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"evaluaciones-ferroviarias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "evaluaciones-ferroviarias_id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombreRuta\": \"Evaluacion-ferroviaria 1\",\r\n    \"informeViabilidad\": \"Informe Evaluacion-ferroviaria 1 actualizada\",\r\n    \"fechaEvaluacion\": \"2024-11-04T20:00:00\",\r\n    \"areaCriticaEntityId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/evaluaciones-ferroviarias/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"evaluaciones-ferroviarias",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "evaluaciones-ferroviarias_id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/evaluaciones-ferroviarias/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"evaluaciones-ferroviarias",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vista-areas-criticas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/vista-areas-criticas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"vista-areas-criticas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "evaluaciones-ferroviarias/insertar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombreRuta\": \"Evaluacion-ferroviaria 1\",\r\n    \"informeViabilidad\": \"Informe Evaluacion-ferroviaria 1\",\r\n    \"areaCriticaEntityId\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/evaluaciones-ferroviarias/insertar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"evaluaciones-ferroviarias",
+						"insertar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

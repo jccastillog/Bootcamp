@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Reto2P",
+            "request": "launch",
+            "mainClass": "RETOS.Reto2P",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "Reto1p",
+            "request": "launch",
+            "mainClass": "RETOS.Reto1p",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
+            "name": "CrudDeforestacionApiApplication",
+            "request": "launch",
+            "mainClass": "com.empresa.cruddeforestacionapi.CrudDeforestacionApiApplication",
+            "projectName": "cruddeforestacionapi"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "partidos.principal.Main",
+            "projectName": "Bootcamp_3b101066"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "abstraccion.principal.Main",
