@@ -1,0 +1,35 @@
+h1{
+    background-color: aliceblue;
+    color: blue;
+}
+
+.texto-externo{
+    color: brown;
+    font-size: large;
+}
+
+#parrafo{
+    color: chartreuse;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+
+
+.texto-importado {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.classimg{
+    border: 2px red;
+}
+
+.parrafo{
+    color: black;
+    background-color: bisque;
+}
