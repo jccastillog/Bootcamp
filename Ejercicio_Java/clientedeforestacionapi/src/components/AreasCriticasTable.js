@@ -1,5 +1,4 @@
 import {Table, Button} from "react-bootstrap";
-import {Container} from 'react-bootstrap';
 
 function AreasCriticasTable({areasCriticas,verDetalle,handleShow,handleDelete}) {
     return (
@@ -11,7 +10,7 @@ function AreasCriticasTable({areasCriticas,verDetalle,handleShow,handleDelete}) 
             <th>Descripción</th>
             <th>Latitud</th>
             <th>Longitud</th>
-            <th>Acciones</th>
+            <th colSpan={2}>Acciones</th>
         </tr>
         </thead>
         <tbody>
@@ -23,11 +22,12 @@ function AreasCriticasTable({areasCriticas,verDetalle,handleShow,handleDelete}) 
                     <td>{area.latitud}</td>
                     <td>{area.longitud}</td>
                     <td>
-                        <Button variant="warning" onClick={e=>{e.stopPropagation();handleShow(area)}}>
+                        <Button variant="warning" size="sm" onClick={e=>{e.stopPropagation();handleShow(area)}}>
                             Editar
                         </Button>
-                        {" "}
-                        <Button variant="danger" onClick={e=>{e.stopPropagation();handleDelete(area.id)}}>
+                    </td>
+                    <td>
+                        <Button variant="danger" size="sm" onClick={e=>{e.stopPropagation();handleDelete(area.id)}}>
                             Eliminar
                         </Button>
                     </td>
